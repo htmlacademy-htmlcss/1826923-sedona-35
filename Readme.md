@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виталий Томгоров](https://up.htmlacademy.ru/htmlcss/35/user/1826923).
-* Наставник: `Сергей Зубов`.(https://htmlacademy.ru/profile/serj).
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
