@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body{
+  font-family: "PT Sans","sans-serif";
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.main-header{
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.navigation-link{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navigation-link-button{
+  color: #FFFFFF;
+  background: #491213;
+  text-decoration: none;
+  text-align: center;
+}
+
+.welcome-block{
+  color: #FFFFFF;
+  background: #000000;
+  background-image: url(../images/main/index-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.edge-title{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edge-description{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+
+.edge-subtitle-blue{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edge-text-blue{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-align: center;
+}
+
+.edge-subtitle{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edge-text{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+}
+
+.search-hotels-title{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search-hotels-description{
+font-family: "PT Sans","sans-serif";
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #333333;
+text-align: center;
+}
+
+.search-hotels-link{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: #756157;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mailing{
+  color: #FFFFFF;
+  background: #000000;
+  background-image: url(../images/main/Subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.mailing-title{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mailing-description{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.mailing-button{
+  font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-contacts-phone{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
