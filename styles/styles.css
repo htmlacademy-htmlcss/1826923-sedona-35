@@ -53,9 +53,13 @@ body{
 }
 
 .welcome-block{
-  background-image: url("../images/main/index-background.jpg");
+  Width: 1200px;
+  Height: 485px;
+  margin: 0 auto;
+  background-image: url("../images/header/divider.png"),url("../images/main/index-background.jpg");
+  background-position: center bottom, center;
   background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .edge-title{
