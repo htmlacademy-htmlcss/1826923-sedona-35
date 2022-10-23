@@ -16,10 +16,12 @@
 
 body{
   font-family: "PT Sans","sans-serif";
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background: #FFFFFF;
+  background: #f2f2f2;
 }
 
 .main-header{
@@ -45,10 +47,13 @@ body{
   text-align: center;
 }
 
+.maim-index{
+  color: #000000;
+  background: #FFFFFF;
+}
+
 .welcome-block{
-  color: #FFFFFF;
-  background: #000000;
-  background-image: url(../images/main/index-background.jpg);
+  background-image: url("../images/main/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -59,7 +64,6 @@ body{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #000000;
   text-align: center;
   text-transform: uppercase;
 }
@@ -70,31 +74,11 @@ body{
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  color: #000000;
   text-align: center;
 }
 
-.edge-subtitle-blue{
-  font-family: "PT Sans","sans-serif";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.edge-text-blue{
-  font-family: "PT Sans","sans-serif";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  text-align: center;
+.edge-item{
+  background: rgba(131, 179, 211, 0.12);
 }
 
 .edge-subtitle{
@@ -103,7 +87,6 @@ body{
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: #000000;
   text-align: center;
   text-transform: uppercase;
 }
@@ -114,8 +97,33 @@ body{
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
   text-align: center;
+}
+
+.edge-item-city{
+  color: #FFFFFF;
+  background: #82B3D3;
+}
+
+.edge-item-road{
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.edge-item-bridge{
+  color: #FFFFFF;
+  background: #82B3D3;
+}
+
+.edge-item-food{
+  background: #FFFFFF;
+}
+
+.edge-item-home{
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.edge-item-gift{
+  background: rgba(131, 179, 211, 0.2);
 }
 
 .search-hotels-title{
@@ -124,7 +132,6 @@ body{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #000000;
   text-align: center;
   text-transform: uppercase;
 }
@@ -155,8 +162,8 @@ body{
 .mailing{
   color: #FFFFFF;
   background: #000000;
-  background-image: url(../images/main/Subscribe.jpg);
-  background-size: 100% auto;
+  background-image: url("../images/main/Subscribe.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
