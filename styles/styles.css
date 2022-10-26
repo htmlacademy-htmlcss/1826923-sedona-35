@@ -25,8 +25,6 @@ body {
 }
 
 .button {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -56,20 +54,17 @@ body {
   background-color: #491213;
 }
 
-.maim-index {
+.main-index {
   color: #000000;
   background-color: #FFFFFF;
 }
 
 .welcome-block {
-  Width: 1200px;
-  Height: 485px;
-  margin: 0 auto;
-  background-image: url("../images/header/divider.png"), url("../images/main/index-background.jpg");
-  background-position: center bottom, center;
+  background-image: url("../images/main/index-background.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat
 }
+
 
 .edge-title {
   font-weight: 700;
@@ -80,13 +75,14 @@ body {
 }
 
 .edge-description {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  color: #333333;
   text-align: center;
 }
 
 .edge-item {
+  color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -107,11 +103,11 @@ body {
   background-color: #82B3D3;
 }
 
-.edge-item-road {
+.edge-item-lightblue {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.edge-item-food {
+.edge-item-white {
   background-color: #FFFFFF;
 }
 
@@ -143,16 +139,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .mailing-title {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #FFFFFF;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -161,7 +154,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
-  text-align: center;
 }
 
 .mailing-button {
@@ -170,13 +162,8 @@ body {
 }
 
 .footer-contacts-phone {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
-  text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
 }
