@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  margin-left: 70px;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  width: 440px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+.navigation-user {
+  max-width: 310px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navigation-link-button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #491213;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-logo {
+  padding: 55px 371px 82px;
+  display: block;
+  margin: 0 auto;
+}
+
+.welcome-block {
+  background-image: url("../images/main/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat
+}
+
+.edge-title {
+  width: 620px;
+  margin: 0 auto;
+  padding: 0 290px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edge-description {
+  width: 651px;
+  margin: 0 auto;
+  padding: 0 275px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+}
+
+.edge-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+.edge-item {
+  width: 400px;
+  Height: 384px;
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.edge-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.edge-text {
+  text-align: center;
+}
+
+.edge-item-blue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  width: 1200px;
+  Height: 384px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.edge-content {
+  display: flex;
+  flex-direction: column;
+  padding: 92px 85px 111px;
+}
+
+.edge-item-lightblue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.edge-item-white {
+  background-color: #FFFFFF;
+}
+
+.search-hotels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-hotels-title {
+  padding: 0 452px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search-hotels-description {
+  padding: 0 304px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+}
+
+.search-hotels-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  padding: 8px 50px;
+  color: #FFFFFF;
+  background-color: #756157;
+}
+
+.mailing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("../images/main/Subscribe.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.mailing-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.mailing-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.field {
+  width: 452px;
+  margin: auto;
+  padding: 12px 20px;
+  border-radius: 4px 0 4px;
+}
+
+.mailing-button {
+  width: 232px;
+  margin-right: 0;
+}
+
+.mailing-button {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  width: 150px;
+  margin-right: 237px;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-logo {
+  margin: auto;
+  width: 115px;
+}
