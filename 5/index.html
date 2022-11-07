@@ -7,136 +7,134 @@
     <base href="https://htmlacademy-htmlcss.github.io/1826923-sedona-35/5/">
 </head>
   <body>
-    <header class="main-header">
-      <a class="main-header-link"><img class="logo" src="images/header/logo.svg" Width="140" Height="70" alt="main-header-logo"></a>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link">Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">О седоне</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
-          </li>
-        </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Поиск</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Избранное 12</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="button navigation-link-button" href="#">Хочу сюда!</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main-container maim-index">
-      <div class="page-container">
-        <section class="welcome-block">
-          <h1 class="visually-hidden">Добро пожаловать в Седону.</h1>
-          <img class="welcome-logo" src="images/main/welcome.svg" Width="458" Height="352" alt="Welcom to the gorgeus Sedona &#10077; Because the grand canyon sucks &#10078;">
-        </section>
-        <section class="edge">
-          <h2 class="edge-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-          <p class="edge-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-          <ul class="edge-list">
-            <li class="edge-item edge-item-blue">
-              <div class="edge-content">
-                <h3 class="edge-subtitle">Настоящий городок</h3>
-                <p class="edge-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              </div>
-              <img class="edge-image" src="images/main/city.jpg" Width="800" Height="384" alt="city on the background of mountains">
+    <div class="container">
+      <header class="main-header">
+        <a class="main-header-link"><img class="logo" src="images/header/logo.svg" Width="140" Height="70" alt="main-header-logo"></a>
+        <nav class="navigation">
+          <ul class="navigation-list clear-list">
+            <li class="navigation-item">
+              <a class="navigation-link">Главная</a>
             </li>
-            <li class="edge-item">
-              <h3 class="edge-subtitle">Небольшая площадь</h3>
-              <p class="edge-text">Все достопримечательности находятся очень близко</p>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">О седоне</a>
             </li>
-            <li class="edge-item edge-item-lightblue">
-              <h3 class="edge-subtitle">Красивая дорога</h3>
-              <p class="edge-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="edge-item">
-              <h3 class="edge-subtitle">Мало туристов</h3>
-              <p class="edge-text">Большинство едет в Гранд Каньон и толпится там</p>
-            </li>
-            <li class="edge-item edge-item-blue">
-              <img class="edge-image" src="images/main/landscape.jpg" Width="800" Height="384" alt="landscape of the area">
-              <div class="edge-content">
-                <h3 class="edge-subtitle">Там есть мост дьявола</h3>
-                <p class="edge-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-              </div>
-            </li>
-            <li class="edge-item">
-              <img class="edge-image" src="images/main/home.svg" Width="75" Height="72" alt="picture of a home">
-              <h3 class="edge-subtitle">Жильё</h3>
-              <p class="edge-text">Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
-            </li>
-            <li class="edge-item edge-item-white">
-              <img class="edge-image" src="images/main/food.svg" Width="74" Height="70" alt="burger picture">
-              <h3 class="edge-subtitle">Еда</h3>
-              <p class="edge-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-            </li>
-            <li class="edge-item">
-              <img class="edge-image" src="images/main/gift.svg" Width="64" Height="76" alt="a carob for a gift">
-              <h3 class="edge-subtitle">Сувениры</h3>
-              <p class="edge-text">Не только китайского, но и настоящего местного производства!</p>
+            <li class="navigation-item">
+              <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-        </section>
-        <section class="search-hotels">
-          <h2 class="search-hotels-title">Заинтересовались?</h2>
-          <p class="search-hotels-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="button search-hotels-link" href="catalog.html">Поиск гостиниц в седоне</a>
-        </section>
-        <section class="mailing">
-          <h2 class="mailing-title">Подпишитесь на рассылку</h2>
-          <p class="mailing-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field"  placeholder="Ваш e-mail" type="email" name="mailing-email" id="mailing-email" required>
-              <button class="button mailing-button" type="submit">Подписаться</button>
-          </form>
-        </section>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="footer-container">
-        <section class="footer-social">
-          <h2 class="visually-hidden">Наши социальные сети</h2>
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="button-social" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">вконтакте</span>
+          <ul class="navigation-list navigation-user clear-list">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">Поиск</span>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a class="button-social" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">телеграм</span>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">Избранное 12</span>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a class="button-social" href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">ютуб</span>
-              </a>
+            <li class="navigation-item">
+              <a class="button navigation-link-button" href="#">Хочу сюда!</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-contacts">
-          <h2 class="visually-hidden">наш номер телефона</h2>
-          <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        </section>
-        <section class="footer-logo">
-          <h2 class="visually-hidden">разработчик сайта</h2>
-          <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img class="logo-html" src="images/footer/html-academy.svg" Width="115" Height="33" alt="html academy"></a>
-        </section>
-      </div>
-    </footer>
+        </nav>
+      </header>
+      <main class="main-container maim-index">
+          <section class="welcome-block">
+            <h1 class="visually-hidden">Добро пожаловать в Седону.</h1>
+            <img class="welcome-logo" src="images/main/welcome.svg" Width="458" Height="352" alt="Welcom to the gorgeus Sedona &#10077; Because the grand canyon sucks &#10078;">
+          </section>
+          <section class="edge">
+            <h2 class="edge-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+            <p class="edge-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+            <ul class="edge-list clear-list">
+              <li class="edge-item edge-item-blue">
+                <div class="edge-content">
+                  <h3 class="edge-subtitle">Настоящий городок</h3>
+                  <p class="edge-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                </div>
+                <img class="edge-image" src="images/main/city.jpg" Width="800" Height="384" alt="city on the background of mountains">
+              </li>
+              <li class="edge-item">
+                <h3 class="edge-subtitle">Небольшая площадь</h3>
+                <p class="edge-text">Все достопримечательности находятся очень близко</p>
+              </li>
+              <li class="edge-item edge-item-lightblue">
+                <h3 class="edge-subtitle">Красивая дорога</h3>
+                <p class="edge-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </li>
+              <li class="edge-item">
+                <h3 class="edge-subtitle">Мало туристов</h3>
+                <p class="edge-text">Большинство едет в Гранд Каньон и толпится там</p>
+              </li>
+              <li class="edge-item edge-item-blue">
+                <img class="edge-image" src="images/main/landscape.jpg" Width="800" Height="384" alt="landscape of the area">
+                <div class="edge-content">
+                  <h3 class="edge-subtitle">Там есть мост дьявола</h3>
+                  <p class="edge-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                </div>
+              </li>
+              <li class="edge-item">
+                <img class="edge-image" src="images/main/home.svg" Width="75" Height="72" alt="picture of a home">
+                <h3 class="edge-subtitle">Жильё</h3>
+                <p class="edge-text">Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
+              </li>
+              <li class="edge-item edge-item-white">
+                <img class="edge-image" src="images/main/food.svg" Width="74" Height="70" alt="burger picture">
+                <h3 class="edge-subtitle">Еда</h3>
+                <p class="edge-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="edge-item">
+                <img class="edge-image" src="images/main/gift.svg" Width="64" Height="76" alt="a carob for a gift">
+                <h3 class="edge-subtitle">Сувениры</h3>
+                <p class="edge-text">Не только китайского, но и настоящего местного производства!</p>
+              </li>
+            </ul>
+          </section>
+          <section class="search-hotels">
+            <h2 class="search-hotels-title">Заинтересовались?</h2>
+            <p class="search-hotels-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <a class="button search-hotels-link" href="catalog.html">Поиск гостиниц в седоне</a>
+          </section>
+          <section class="mailing">
+            <h2 class="mailing-title">Подпишитесь на рассылку</h2>
+            <p class="mailing-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input class="email-field"  placeholder="Ваш e-mail" type="email" name="mailing-email" id="mailing-email" required>
+                <button class="button mailing-button" type="submit">Подписаться</button>
+            </form>
+          </section>
+      </main>
+      <footer class="footer">
+          <section class="footer-social">
+            <h2 class="visually-hidden">Наши социальные сети</h2>
+            <ul class="footer-social-list clear-list">
+              <li class="footer-social-item">
+                <a class="button-social" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">вконтакте</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button-social" href="https://t.me/htmlacademy">
+                  <span class="visually-hidden">телеграм</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="button-social" href="https://www.youtube.com/user/htmlacademyru">
+                  <span class="visually-hidden">ютуб</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="footer-contacts">
+            <h2 class="visually-hidden">наш номер телефона</h2>
+            <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </section>
+          <section class="footer-logo">
+            <h2 class="visually-hidden">разработчик сайта</h2>
+            <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img class="logo-html" src="images/footer/html-academy.svg" Width="115" Height="33" alt="html academy"></a>
+          </section>
+      </footer>
+    </div>
  </body>
 </html>
